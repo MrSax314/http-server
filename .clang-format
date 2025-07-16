@@ -1,0 +1,9 @@
+BasedOnStyle: LLVM  # or Google, Microsoft, etc.
+BraceWrapping:
+  AfterFunction: true
+  AfterClass: true
+  AfterControlStatement: false
+
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4

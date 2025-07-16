@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Built Executable",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/MyProject", // Adjust this
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb", // Or lldb on macOS
+            "miDebuggerPath": "/usr/bin/gdb", // Adjust for your system
+            "preLaunchTask": "cmake compile"
+        }
+    ]
+}

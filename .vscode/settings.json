@@ -1,0 +1,6 @@
+{
+    "editor.fomatOnSave": true,
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}
