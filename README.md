@@ -1,1 +1,1 @@
-Project for repsponding to http requests!
+Project for responding to http requests!
